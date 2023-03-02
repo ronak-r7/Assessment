@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="fevicon" href="images/R7.jpg">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    <div class="name">
+        <h2><u>Student Registration Form</u></h2>   
+    </div>
+   
+    <form action="" method="POST">
+    <div class="form">
+        
+        <div class="label">
+            <label for="fname">First Name: </label><br>
+            <label for="last-name">Last Name: </label><br>
+            <label for="mail">Email: </label><br>
+            <label for="mobile">Mobile: </label><br>
+            <label for="gender" class="g">Gender:</label><br>
+            <label for="dob">Date of Birth:</label><br>
+            <label for="address" >Address: </label><br>
+            <label for="city" class="c">City: </label><br>
+            <label for="pin">Area PIN: </label><br>
+            <label for="state">State: </label><br>
+            <label for="qualification" >Qualification: </label><br>
+            <label for="specialization:">Specialization: </label><br>
+            <label for="pwd" class="p">Password: </label>
+        </div>
+        <div class="input">
+            <input type="text" placeholder="Enter Your First Name"  pattern="[a-zA-Z]{3,6}" title="3 to 6 characters only" required><br>
+            <input type="text" placeholder="Enter Your Last Name" required><br>
+            <input type="email" placeholder="It Should Contain @ and ." name="" id="" required><br>
+            <input type="tel" placeholder="Only 10 Digits are Allowed" name="" id="" maxlength="10" pattern="[0-9]{10}" title="10 digits only" required><br>
+            <input type="radio" name="gender" class="x g"> Male   
+            <input type="radio" name="gender" class="x g" > Female <br>
+            <input type="date" name="dob" id="" class="d" required><br>
+            <textarea name="address" id="" cols="40" rows="7" class="t" required></textarea><br>
+            <input type="text" required><br>
+            <input type="text" pattern="[0-9]{6}" title="6 digit only"required><br>
+            <input type="text" required><br>
+            <select class="q">  
+              <option value="Course" >Select Qualification</option>  
+              <option value="BCA">BCA</option>  
+              <option value="BBA">BBA</option>  
+              <option value="B.Tech">B.Tech</option>  
+              <option value="MBA">MBA</option>  
+              <option value="MCA">MCA</option>  
+              <option value="M.Tech">M.Tech</option>  
+            </select><br>
+            <div class="spe">
+              <input type="checkbox" name="" id="" class="y"> Computer Science<br>
+              <input type="checkbox" name="" id="" class="y"> Information Technology<br> 
+              <input type="checkbox" name="" id="" class="y"> Computer Architecture<br>
+              <input type="checkbox" name="" id="" class="y"> Tele Communication<br>
+            </div><br>     
+            <input type="password" name="" id=""  required><br>  
+            <input type="submit" value="Registerd" class="btn">
+        </div>
+    
+    </div>
+</form>
+</body>
+</html> 

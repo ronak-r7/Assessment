@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background: lightgray;
+}
+.name {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+h2{
+    padding: 10px;
+    background: white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: red; 
+}
+.form{
+    padding: 10px;
+    /* width: 50%; */
+    background-color: lightgrey;
+    display: flex;
+    margin-top: 50px;
+}
+
+label{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+    /* background: red; */
+    margin: 10px 0px;
+}
+input{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 5px 0px;
+    /* background: red; */
+    /* width: 40%; */
+    font-size: 12px;
+    padding: 5px;
+    outline: none;
+}
+
+.form .input .btn{
+    width: 100px;
+    height: 40px;
+    background: green;
+    color: white;
+    border: none;
+    border-radius: 12px;
+}
+
+.form .input input {
+    width: 400px;
+}
+
+.form .input .x{
+    width: auto;
+}
+
+.form .input .y{
+    width: auto;
+}
+
+.form .label .g
+{
+    margin-top: 10px;
+}
+
+.form .input .g
+{
+    margin-top: 10px;
+}
+
+.form .input .d
+{
+    margin-top: 15px;
+}
+
+.form .input .t
+{
+    margin-top: 8px;
+    width: 400px;
+}
+
+.form .label .c
+{
+    margin-top: 95px;
+}
+
+.form .input .q
+{
+    margin-top: 10px;
+    width: 200px;
+    height: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.form .input .spe{
+    margin-top: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.form .label .p{
+    margin-top: 95px;
+}
